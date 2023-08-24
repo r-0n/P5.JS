@@ -61,8 +61,8 @@ function preload() {
     smoke = loadImage("textures/star elliipse.jpg");
     earth = loadImage("textures/earth1.png");
     moon_tex = loadImage("textures/moon.png");
-    myFont = loadFont("textures/TwilightFont.otf");
-    song = loadSound("textures/Interstellar-Theme.mp3");
+    myFont = loadFont("TwilightFont.otf");
+    song = loadSound("Interstellar-Theme.mp3");
     red_moon = loadImage("textures/red moon.png");
     pink_text = loadImage("textures/pink planet.jpg");
     green_planet = loadImage("textures/green planet.jpg");
@@ -486,11 +486,9 @@ function Ry(th) {
     ]);
 }
 
-//inspiration
-
-//from the previous homework created using boxes in 3D.
+//inspiration: From 
 
 //challenges faced:
 
-//I had a difficulty in navigating the 3D space difficulty in resetting the movement from the top of the canvas.
+//had a difficulty in navigating the 3D space difficulty in resetting the movement from the top of the canvas.
 //Also, it was a hustle figuring out how to make sure the boxes stay in a fixed position
