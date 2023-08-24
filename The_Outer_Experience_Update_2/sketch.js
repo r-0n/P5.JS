@@ -62,7 +62,7 @@ function preload() {
     earth = loadImage("textures/earth1.png");
     moon_tex = loadImage("textures/moon.png");
     myFont = loadFont("TwilightFont.otf");
-    song = loadSound("Interstellar-Theme.mp3");
+    song = loadSound("Ludovico-Einaudi-Primavera.mp3");
     red_moon = loadImage("textures/red moon.png");
     pink_text = loadImage("textures/pink planet.jpg");
     green_planet = loadImage("textures/green planet.jpg");
